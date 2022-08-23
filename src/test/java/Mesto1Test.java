@@ -8,6 +8,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+@DisplayName("Term Deposits Test")
 public class Mesto1Test {
 
     String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmI5YzcxMGQzYjg2YTAwM2Q2N2M4MDAiLCJpYXQiOjE2NjEyNTM3MDAsImV4cCI6MTY2MTg1ODUwMH0.Kx9AViAekQkEyf6bshyaZ8n9DcPdIgJJPDSdFUkosGI";
